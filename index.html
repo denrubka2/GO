@@ -96,7 +96,7 @@
     </section>
   
     <section id="reservation">
-      <h2>Забронировать</h2>
+      <h2>Забронировать зал просто</h2>
       <form action="https://jsonplaceholder.typicode.com/posts" method="POST" name="reservation">
         <fieldset>
           <label>
@@ -174,23 +174,32 @@
         
         <fieldset>
           <legend>Выбери дату и время</legend>
-          <label for="date">Дата*</label>
-          <input type="date" name="date" id="date" required>
+          <fieldset>
+            <label for="date">Дата*</label>
+            <input type="date" name="date" id="date" required>
 
-          <label for="time">Время*</label>
-          <input type="time" name="time" id="time" required>
+            <label for="time">Время*</label>
+            <input type="time" name="time" id="time" required>
 
-          <label for="persons">Количество человек*</label>
-          <input type="number" name="persons" id="persons" required>
+            <label for="persons">Количество человек*</label>
+            <input type="number" name="persons" id="persons" required>
+          </fieldset>
 
-          <label for="firstName">Имя*</label>
-          <input type="text" name="firstName" id="firstName" required>
+          <fieldset>
+            <label for="firstName">Имя*</label>
+            <input type="text" name="firstName" id="firstName" required>
 
-          <label for="lastName">Фамилия*</label>
-          <input type="text" name="lastName" id="lastName" required>
+            <label for="lastName">Фамилия*</label>
+            <input type="text" name="lastName" id="lastName" required>
+          </fieldset>
 
-          <label for="phone">Номер телефона*</label>
-          <input type="tel" name="phone" id="phone" required>
+          <fieldset>
+            <label for="phone">Номер телефона*</label>
+            <input type="tel" name="phone" id="phone" required>
+
+            <label for="email">E-mail*</label>
+            <input type="email" name="email" id="email" required>
+          </fieldset>
 
           <label>
             <input type="checkbox">
@@ -216,6 +225,34 @@
         <p><strong>«GAME OVER» </strong> &mdash; это место незабываемых впечатлений</p>
         <p><cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
       </blockquote>
+    </section>
+
+    <section id="reviews">
+      <h2>Отзывы посетителей</h2>
+
+      <ul>
+        <li>
+          <figure>
+            <img src="img/person.jpg" alt="Отзыв посетителя Макс Самойлов">
+            <figcaption>Макс Самойлов</figcaption>
+          </figure>
+          <p>Отмечали здесь день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
+        </li>
+        <li>
+          <figure>
+            <img src="img/person.jpg" alt="Отзыв посетителя Оксана Григорьева">
+            <figcaption>Оксана Григорьева</figcaption>
+          </figure>
+          <p>Были в комнате Дикий запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет подобных заведений</p>
+        </li>
+        <li>
+          <figure>
+            <img src="img/person.jpg" alt="Отзыв посетителя Никита Ященко">
+            <figcaption>Никита Ященко</figcaption>
+          </figure>
+          <p>Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса</p>
+        </li>
+      </ul>
     </section>
   </main>
 
