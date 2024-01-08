@@ -99,22 +99,23 @@
       <h2>Забронировать зал просто</h2>
       <form action="https://jsonplaceholder.typicode.com/posts" method="POST" name="reservation">
         <fieldset>
-          <label>
+          <legend>Выбери зал</legend>
+          <div>
             <input type="radio" name="hall" value="80`s vibes">
-            80`s vibes
-          </label>
-          <label>
+            <label>80`s vibes</label>
+          </div>
+          <div>
             <input type="radio" name="hall" value="star wars">
-            star wars
-          </label>
-          <label>
+            <label>star wars</label>
+          </div>
+          <div>
             <input type="radio" name="hall" value="wild west">
-            wild west
-          </label>
-          <label>
+            <label>wild west</label>
+          </div>
+          <div>
             <input type="radio" name="hall" value="neon style">
-            neon style
-          </label>
+            <label>neon style</label>
+          </div>
         </fieldset>
     
         <fieldset>
@@ -142,19 +143,19 @@
           <fieldset>
             <legend>Настольные игры:</legend>
             <label>
-              <input type="radio" name="board" value="Jenga">
+              <input type="checkbox" name="board" value="Jenga">
               Jenga
             </label>
             <label>
-              <input type="radio" name="board" value="Monopoly">
+              <input type="checkbox" name="board" value="Monopoly">
               Monopoly
             </label>
             <label>
-              <input type="radio" name="board" value="Манчкин">
+              <input type="checkbox" name="board" value="Манчкин">
               Манчкин
             </label>
             <label>
-              <input type="radio" name="board" value="Alias">
+              <input type="checkbox" name="board" value="Alias">
               Alias
             </label>
           </fieldset>
@@ -162,11 +163,11 @@
           <fieldset>
             <legend>Дополнительно:</legend>
             <label>
-              <input type="radio" name="additionally" value="Караоке">
+              <input type="checkbox" name="additionally" value="Караоке">
               Караоке
             </label>
             <label>
-              <input type="radio" name="additionally" value="VR">
+              <input type="checkbox" name="additionally" value="VR">
               VR
             </label>
           </fieldset>
@@ -174,46 +175,37 @@
         
         <fieldset>
           <legend>Выбери дату и время</legend>
-          <fieldset>
-            <label for="date">Дата*</label>
-            <input type="date" name="date" id="date" required>
+          <div>
+            <div>
+              <input type="date" name="date" id="date" required placeholder="Дата">
+              <input type="time" name="time" id="time" required placeholder="Время">
+            </div>
+            <select name="persons" id="persons" required>
+              <option selected>Сколько человек</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
 
-            <label for="time">Время*</label>
-            <input type="time" name="time" id="time" required>
-
-            <label for="persons">Количество человек*</label>
-            <input type="number" name="persons" id="persons" required>
-          </fieldset>
-
-          <fieldset>
+          <div>
             <label for="firstName">Имя*</label>
             <input type="text" name="firstName" id="firstName" required>
 
             <label for="lastName">Фамилия*</label>
             <input type="text" name="lastName" id="lastName" required>
-          </fieldset>
+          </div>
 
-          <fieldset>
+          <div>
             <label for="phone">Номер телефона*</label>
             <input type="tel" name="phone" id="phone" required>
 
             <label for="email">E-mail*</label>
             <input type="email" name="email" id="email" required>
-          </fieldset>
-
-          <label>
-            <input type="checkbox">
-            Я старше 18 лет
-          </label>
+          </div>
         </fieldset>
 
         <button type="submit">Забронировать</button>
-
-        <label>
-          <input type="checkbox" required>
-          Я согласен на обработку данных
-        </label>
-    
       </form>
     </section>
   
