@@ -1,0 +1,25 @@
+.hero-wrapper {
+  position: relative;
+  min-height: 823px;
+}
+
+.hero-wrapper::before {
+  position: absolute;
+  content: url('../img/game-over.png');
+  right: 0;
+  bottom: 0;
+}
+
+.hero__title {
+  color: #FFF;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -15px;
+}
+
+.hero__subtitle {
+  font-size: 28px;
+  line-height: 1.78;
+  margin-left: 100px;
+}

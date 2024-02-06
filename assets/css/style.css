@@ -4,9 +4,22 @@
 }
 
 body {
-  background-color: #1B1A1B;
+  font-family: Arial, sans-serif;
   color: #FFFFFF;
+  background-color: #1B1A1B;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+cite {
+  font-style: normal;
 }
 
 ul {
@@ -15,14 +28,27 @@ ul {
   list-style-type: none;
 }
 
-.quote {
-  text-transform: uppercase;
-}
-
 .wrapper {
-  max-width: 1200px;
+  max-width: 1240px;
   padding: 0 30px;
   margin: 0 auto;
+}
+
+.main {
+  padding-top: 96px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .img-wrapper {

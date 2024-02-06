@@ -30,7 +30,7 @@
 }
 
 .faq__item:nth-child(even)::after {
-  content: url("../img/open.svg");
+  content: url("../img/open-white.svg");
 }
 
 

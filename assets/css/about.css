@@ -1,0 +1,62 @@
+.about__text {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.about__text:not(:last-of-type) {
+  margin-bottom: 20px;
+} 
+
+.about__text:last-of-type {
+  margin-bottom: 78px;
+}
+
+.about-quote__text {
+  position: relative;
+  font-size: 44px;
+  line-height: 1.13;
+  text-transform: uppercase;
+  padding-left: 55px;
+  margin-bottom: 40px;
+}
+
+.about-quote__text::before, .about-quote__text::after {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.14;
+  color: #6c0287;
+}
+
+.about-quote__text::before {
+  position: absolute;
+  content: '“';
+  left: 0;
+  top: -8px;
+}
+
+.about-quote__text::after {
+  content: ' ”';
+  display: inline;
+}
+
+.about-quote__text strong {
+  display: block;
+  font-weight: 400;
+}
+
+.about-quote__author {
+  max-width: 389px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-left: auto;
+}
+
+.about-quote__author-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.about-quote__author-cite {
+  white-space: pre-line;
+}
