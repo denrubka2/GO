@@ -11,6 +11,7 @@
 }
 
 .hero__title {
+  width: max-content;
   color: #FFF;
   font-size: 150px;
   font-weight: 900;
