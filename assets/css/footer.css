@@ -29,6 +29,10 @@
   transform: translateY(-50%);
 }
 
+.socials__list {
+  font-size: 0;
+}
+
 .socials__item {
   display: inline-block;
   vertical-align: middle;
@@ -38,6 +42,6 @@
   margin-right: 26px;
 }
 
-.social__icon {
+.socials__icon {
   display: block;
 }
