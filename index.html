@@ -9,16 +9,18 @@
   <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-  <div class="wrapper">  
-    <main class="main">
-      <section class="section hero">
+  <main class="main">
+    <section class="section hero">
+      <div class="container">
         <div class="hero-wrapper">
           <h1 class="hero__title">GAME OVER</h1>
           <p class="hero__subtitle">Новый формат игр и отдыха</p>
         </div>
-      </section>
-    
-      <section class="section halls" id="halls">
+      </div>
+    </section>
+  
+    <section class="section halls" id="halls">
+      <div class="container">
         <h2 class="section__title">Наши залы</h2>
         <ul class="halls__list">
           <li class="halls__item">
@@ -34,22 +36,24 @@
             <a class="halls__link halls__link_neonstyle" href="neon.html"><span class="halls__link-text">Neon style</span></a>
           </li>
         </ul>
-      </section>
-    
-      <section class="section" id="reservation">
+      </div>
+    </section>
+  
+    <section class="section" id="reservation">
+      <div class="container">
         <h2 class="section__title">Забронировать зал просто</h2>
         <form action="https://jsonplaceholder.typicode.com/posts" method="POST" name="reservation">
           <fieldset>
             <legend>Выбери зал</legend>
               <input type="radio" name="hall" value="80`s vibes">
               <label>80`s vibes</label>
-  
+
               <input type="radio" name="hall" value="star wars">
               <label>star wars</label>
-  
+
               <input type="radio" name="hall" value="wild west">
               <label>wild west</label>
-  
+
               <input type="radio" name="hall" value="neon style">
               <label>neon style</label>
           </fieldset>
@@ -116,32 +120,34 @@
                 <input type="date" name="date" id="date" required placeholder="Дата">
                 <input type="time" name="time" id="time" required placeholder="Время">
               </div>
-  
+
               <input type="number" name="persons" id="persons" required placeholder="Сколько человек">
             </div>
-  
+
             <div>
               <label for="firstName">Имя*</label>
               <input type="text" name="firstName" id="firstName" required>
-  
+
               <label for="lastName">Фамилия*</label>
               <input type="text" name="lastName" id="lastName" required>
             </div>
-  
+
             <div>
               <label for="phone">Номер телефона*</label>
               <input type="tel" name="phone" id="phone" required>
-  
+
               <label for="email">E-mail*</label>
               <input type="email" name="email" id="email" required>
             </div>
           </fieldset>
-  
+
           <button type="submit">Забронировать</button>
         </form>
-      </section>
-    
-      <section class="section about" id="about">
+      </div>
+    </section>
+  
+    <section class="section about" id="about">
+      <div class="container">
         <h2 class="section__title">О нас</h2>
         <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
         <p class="about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
@@ -154,11 +160,12 @@
               территории GAME OVER</cite>
           </p>
         </blockquote>
-      </section>
+      </div>
+    </section>
 
-      <section class="section faq" id="faq">
+    <section class="section faq" id="faq">
+      <div class="container">
         <h2 class="section__title">Частые вопросы</h2>
-
         <ul class="faq__list">
           <li class="faq__item">
             Можно ли забронировать комнату онлайн?
@@ -176,10 +183,12 @@
             Какая комната самая популярная?
           </li>
         </ul>
-      </section>
-    </main>
-  
-    <footer class="section footer" id="contacts">
+      </div>
+    </section>
+  </main>
+
+  <footer class="section footer" id="contacts">
+    <div class="container">
       <h2 class="section__title">Контакты</h2>
       <address class="address">
         <p class="address__contact address__contact_city">
@@ -258,7 +267,7 @@
           </li>
         </ul>
       </nav>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,34 +1,88 @@
-
-* {
+html {
+  position: relative;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  color: #FFFFFF;
-  background-color: #1B1A1B;
-  margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote {
-  margin: 0;
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  background-color: #1B1A1B;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset,
+p, 
+blockquote {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 
 cite {
   font-style: normal;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.wrapper {
+.container {
   max-width: 1240px;
   padding: 0 30px;
   margin: 0 auto;
