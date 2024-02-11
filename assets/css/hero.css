@@ -1,9 +1,9 @@
-.hero-wrapper {
+.hero__wrapper {
   position: relative;
   min-height: 823px;
 }
 
-.hero-wrapper::before {
+.hero__wrapper::before {
   position: absolute;
   content: url('../img/game-over.png');
   right: 0;
