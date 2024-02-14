@@ -19,18 +19,18 @@
   margin: 0 auto;
 }
 
-.halls__link_hall_vibes {
+.halls__link_theme_vibes {
   background: url('../img/80-vibes.jpg') no-repeat ;
 }
 
-.halls__link_hall_starwars {
+.halls__link_theme_starwars {
   background: url('../img/star-wars.jpg') no-repeat ;
 }
 
-.halls__link_hall_wildwest {
+.halls__link_theme_wildwest {
   background: url('../img/wild-west.jpg') no-repeat ;
 }
 
-.halls__link_hall_neonstyle {
+.halls__link_theme_neonstyle {
   background: url('../img/neon-style.jpg') no-repeat ;
 }
