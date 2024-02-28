@@ -1,6 +1,21 @@
+.about__preview {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 600px;
+  width: 100%;
+  margin-right: 80px;
+}
+
+.about__desc {
+  float: right;
+  max-width: 500px;
+  width: 100%;
+}
+
 .about__text {
   font-size: 20px;
   line-height: 1.4;
+  white-space: pre-line;
 }
 
 .about__text:not(:last-of-type) {
@@ -8,5 +23,5 @@
 } 
 
 .about__text:last-of-type {
-  margin-bottom: 78px;
+  margin-bottom: 48px;
 }
