@@ -1,5 +1,19 @@
-.halls__item:not(:last-child) {
-  margin-bottom: 60px;
+.halls__list {
+  font-size: 0;
+}
+
+.halls__item {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(50% - 10px);
+}
+
+.halls__item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+
+.halls__item:not(:nth-last-child(-n+2)) {
+  margin-bottom: 20px;
 }
 
 .halls__link {
@@ -10,27 +24,29 @@
   text-align: center;
   line-height: 1.14;
   color: #fff;
-  padding: 275px 15px;
+  padding: 135px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .halls__link-text {
   display: block;
-  width: min-content;
   margin: 0 auto;
 }
 
 .halls__link_theme_vibes {
-  background: url('../img/80-vibes.jpg') no-repeat ;
+  background-image: url('../img/80-vibes.jpg');
 }
 
 .halls__link_theme_starwars {
-  background: url('../img/star-wars.jpg') no-repeat ;
+  background-image: url('../img/star-wars.jpg');
 }
 
 .halls__link_theme_wildwest {
-  background: url('../img/wild-west.jpg') no-repeat ;
+  background-image: url('../img/wild-west.jpg');
 }
 
 .halls__link_theme_neonstyle {
-  background: url('../img/neon-style.jpg') no-repeat ;
+  background-image: url('../img/neon-style.jpg');
 }

@@ -1,0 +1,38 @@
+.reviews__item {
+  display: flow-root;
+}
+
+.reviews__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.reviews__author {
+  float: left;
+}
+
+.reviews__author-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 11px;
+}
+
+.reviews__author-name {
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.reviews__text-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 720px;
+  padding: 52px 20px 20px 20px;
+}
+
+.reviews__text {
+  font-size: 20px;
+  line-height: 1.4;
+}
