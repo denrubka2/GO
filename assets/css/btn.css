@@ -1,0 +1,29 @@
+.btn-call {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 29px 9px 29px;
+  border: 3px solid #cd06ff;
+  border-radius: 10px;
+}
+
+.btn-next {
+  position: absolute;
+  left: 50%;
+  bottom: 90px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+}
+
+.btn-next__icon {
+  position: relative;
+  top: -5px;
+}

@@ -1,3 +1,14 @@
+.footer {
+  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+  padding-bottom: 10px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 156px;
+}
+
 .address {
   margin-bottom: 35px;
 }
@@ -14,11 +25,11 @@
   padding-left: 65px;
 }
 
-.address__contact_city {
+.address__contact_block_city {
   margin-bottom: 38px;
 }
 
-.address__contact_tel {
+.address__contact_block_tel {
   margin-bottom: 10px;
 }
 
@@ -44,4 +55,15 @@
 
 .socials__icon {
   display: block;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright-text {
+  white-space: pre-line;
+  font-size: 14px;
+  line-height: 1.14;
 }

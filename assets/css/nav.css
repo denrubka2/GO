@@ -1,0 +1,12 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.nav__item {
+  font-size: 22px;
+  line-height: 2.27;
+  text-transform: uppercase;
+}

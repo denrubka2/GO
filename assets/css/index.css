@@ -1,9 +1,17 @@
 @import url(normalize.css);
 @import url(style.css);
-@import url(quote.css);
+
+@import url(header.css);
+@import url(btn.css);
+@import url(nav.css);
 @import url(hero.css);
+@import url(benefits.css);
+@import url(services.css);
+@import url(reservation.css);
+@import url(form.css);
 @import url(halls.css);
 @import url(about.css);
+@import url(quote.css);
 @import url(reviews.css);
 @import url(faq.css);
 @import url(footer.css);

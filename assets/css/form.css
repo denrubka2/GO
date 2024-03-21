@@ -1,0 +1,146 @@
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+}
+
+.form__group_block_halls {
+  gap: 0 20px;
+  margin-bottom: 60px;
+}
+
+.form__group_block_services {
+  margin-bottom: 60px;
+}
+
+.form__group_block_date {
+  margin-bottom: 40px;
+}
+
+.form__group-title {
+  width: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form__radio-button {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  padding: 7px 15px 8px 15px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 250px;
+  width: 100%;
+}
+
+.form__subgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: none;
+  padding: 0;
+}
+
+.form__subgroup-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-bottom: 23px;
+  width: 100%;
+}
+
+.form__services-label {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.form__services-radio {
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
+}
+
+.form__services-checkbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.form__group-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+}
+
+.form__group-wrapper_option_date {
+  padding-top: 22px;
+}
+
+.form__inputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.form__label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 6px;
+}
+
+.form__input {
+  line-height: 1.125;
+  border: none;
+  padding: 17px 10px;
+  width: 100%;
+}
+
+.form__input_type_quantity {
+  margin-top: auto;
+}
+
+.form__input_type-data:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.form__input_type_date {
+  max-height: 52px;
+  max-width: calc(50% - 16px);
+}
+
+.form__input_type_time {
+  max-height: 52px;
+  max-width: calc(50% - 16px);
+}
+
+.form__button {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.27;
+  text-transform: uppercase;
+  color: #6c0287;
+  padding: 16px 50px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  align-self: flex-end;
+}

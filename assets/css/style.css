@@ -23,6 +23,7 @@ body {
   -webkit-tap-highlight-color: transparent;
   font-size: 16px;
   background-color: #1B1A1B;
+  line-height: 1.125;
 }
 
 img,
@@ -88,10 +89,6 @@ cite {
   margin: 0 auto;
 }
 
-.main {
-  padding-top: 96px;
-}
-
 .section {
   padding: 50px 0;
 }
@@ -102,7 +99,7 @@ cite {
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .img-wrapper {
