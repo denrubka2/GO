@@ -59,20 +59,20 @@
               </div>
             </div>
 
-            <button class="benefits__btn">Забронировать</button>
+            <a class="benefits__btn" href="#reservation">Забронировать</a>
           </div>
 
-          <button class="btn-next" type="button">
+          <a class="btn-next" href="#services">
             <svg class="btn-next__icon" width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="0.425476" y="14.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 0.425476 14.9162)" fill="white" />
               <rect x="14.5807" y="29.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 14.5807 29.0737)" fill="white" />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="section services">
+    <section class="section services" id="services">
       <div class="container">
         <h2 class="section__title services__title">У нас есть все для классного отдыха с друзьями!</h2>
 
@@ -140,25 +140,25 @@
           <fieldset class="form__group form__group_block_halls">
             <legend class="form__group-title">Выбери зал</legend>
 
-              <label class="form__radio-button">
-                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="80`s vibes">
-                80`s vibes
-              </label>
+              <div class="form__radio-button">
+                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="80`s vibes" id="hall-vibes">
+                <label class="form__radio-button__label" for="hall-vibes">80`s vibes</label>
+              </div>
 
-              <label class="form__radio-button">
-                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="star wars">
-                star wars
-              </label>
+              <div class="form__radio-button">
+                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="star wars" id="hall-star-wars">
+                <label class="form__radio-button__label" for="hall-star-wars">star wars</label>
+              </div>
 
-              <label class="form__radio-button">
-                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="wild west">
-                wild west
-              </label>
+              <div class="form__radio-button">
+                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="wild west" id="hall-wild-west">
+                <label class="form__radio-button__label" for="hall-wild-west">wild west</label>
+              </div>
 
-              <label class="form__radio-button">
-                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="neon style">
-                neon style
-              </label>
+              <div class="form__radio-button">
+                <input class="form__radio form__radio-button__input visually-hidden" type="radio" name="hall" value="neon style" id="hall-neon-style">
+                <label class="form__radio-button__label" for="hall-neon-style">neon style</label>
+              </div>
           </fieldset>
 
           <div class="form__wrapper">

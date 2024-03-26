@@ -34,6 +34,12 @@
 }
 
 .form__radio-button {
+  max-width: 250px;
+  width: 100%;
+}
+
+.form__radio-button__label {
+  display: block;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.33;
@@ -44,8 +50,11 @@
   background: #FFFFFF;
   border-radius: 8px;
   cursor: pointer;
-  max-width: 250px;
-  width: 100%;
+  
+}
+
+.form__radio-button__input:checked ~ .form__radio-button__label {
+  
 }
 
 .form__subgroup {
@@ -69,6 +78,7 @@
   align-items: center;
   font-size: 22px;
   cursor: pointer;
+  width: fit-content;
 }
 
 .form__services-radio {
